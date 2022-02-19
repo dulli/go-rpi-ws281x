@@ -11,7 +11,7 @@ This fork adds compatibility to the latest version of `rpi_ws281x` (by linking `
 The recommended way to install `go-rpi-ws281x` (on Debian) is by cross-compiling the original `rpi_ws281x` library (using `scons` and the appropriate `gcc` cross-compiler) and copying the header and library files into the correct multiarch locations:
 
 ```shell
-sudo apt install scons gcc-aarch64-linux-gnu
+apt install scons gcc-aarch64-linux-gnu
 git clone https://github.com/jgarff/rpi_ws281x
 cd rpi_ws281x
 
